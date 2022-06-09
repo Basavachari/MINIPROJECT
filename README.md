@@ -1,6 +1,6 @@
 ## Details
             Group No : 40
-    Members               Roll No
+Members                 Rollno
 SAMPREETH JANGALA       S20200010079 
 KARTHIKEYA BETHU        S20200010090 
 NITISH REDDY NANDYALA   S20200010142 
