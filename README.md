@@ -11,7 +11,7 @@
 ## Tools used
 * Java
 * Mysql
-    We wrote the code in java language and used Mysql for database.
+> We wrote the code in java language and used Mysql for database.
 
 ## Porject Information
 We create the command line project for storing the Anime data in database.
@@ -19,20 +19,20 @@ We create the command line project for storing the Anime data in database.
 In src file we have sub pakages like---
 
 1. SQLDetails -->Mysql details here 
-    - Details.java => for storing sql details 
+    - Details.java       => for storing sql details 
 2. Run --> App.java and corresponding methods are here
     - App.java => class that has main method.
-    - Operate.java => has methods that is called by App.java by corresponding command line arguments
+    - Operate.java       => has methods that is called by App.java by corresponding command line arguments
 3. Classes         -> we kept all classes here
-    - Anime.java => has details,constructors,methods of Anime class
-    - Episode.java => has details,constructors,methods of Episode class
-    - Movie.java => has details,constructors,methods of Movie class
+    - Anime.java         => has details,constructors,methods of Anime class
+    - Episode.java       => has details,constructors,methods of Episode class
+    - Movie.java         => has details,constructors,methods of Movie class
 4. Interfaces -> we kept all interfaces here 
-    - CONNECTable.java => interface for getconnection
-    - CRUDable.java => interface for CRUD operations
-    - FITERable.java => interface for filter operations
+    - CONNECTable.java   => interface for getconnection
+    - CRUDable.java      => interface for CRUD operations
+    - FITERable.java     => interface for filter operations
 5. Implementation -> implementations of interfaces are here
-    - AnimeCRUD.java => implemments CRUDable interface and has CRUD operations for Anime class   
+    - AnimeCRUD.java     => implemments CRUDable interface and has CRUD operations for Anime class   
     - ConnectionFactory.java => implements to get connection with sql
     - EpisodeCRUD.java => implemments CRUDable interface and has CRUD operations for Episode class
     - MovieCRUD.java => implemments CRUDable interface and has CRUD operations for Movie class
