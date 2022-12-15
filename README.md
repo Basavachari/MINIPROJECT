@@ -13,7 +13,7 @@
 * Mysql
 > We wrote the code in java language and used Mysql for database.
 
-## Porject Information
+## Project Information
 We create the command line project for storing the Anime data in database.
 
 In src file we have sub pakages like---
