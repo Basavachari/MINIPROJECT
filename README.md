@@ -19,7 +19,8 @@ We create the command line project for storing the Anime data in database.
 In src file we have sub pakages like---
 
 1. SQLDetails -->Mysql details here 
-    - Details.java       => for storing sql details 
+    - Details.java       
+        > for storing sql details 
 2. Run --> App.java and corresponding methods are here
     - App.java => class that has main method.
     - Operate.java       => has methods that is called by App.java by corresponding command line arguments
