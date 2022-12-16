@@ -45,10 +45,16 @@ In src file we have sub pakages like---
         > implements CRUDable interface and has CRUD operations for Anime class   
     - ConnectionFactory.java 
         > implements CONNECTable interface to get connection with sql server.
-    - EpisodeCRUD.java   => implements CRUDable interface and has CRUD operations for Episode class
-    - MovieCRUD.java     => implements CRUDable interface and has CRUD operations for Movie class.
-    - TestFILTER.java    => implements FITERable interface and has soring and filter operations for all there classes
+    - EpisodeCRUD.java   
+        > implements CRUDable interface and has CRUD operations for Episode class
+    - MovieCRUD.java     
+        > implements CRUDable interface and has CRUD operations for Movie class.
+    - TestFILTER.java    
+        > implements FITERable interface and has soring and filter operations for all there classes
 6. CSV_files -> all csv files here
-    - Anime.csv          => csv file for Anime details
-    - Episode.csv        => csv file for Episode details
-    - Movie.csv          => csv file for Movie details
+    - Anime.csv          
+        > csv file for Anime details
+    - Episode.csv        
+        > csv file for Episode details
+    - Movie.csv          
+        > csv file for Movie details
