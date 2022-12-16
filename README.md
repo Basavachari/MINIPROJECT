@@ -20,21 +20,31 @@ In src file we have sub pakages like---
 
 1. SQLDetails -->Mysql details here 
     - Details.java       
-        > for storing sql details 
+        > for storing SQL server credentials 
 2. Run --> App.java and corresponding methods are here
-    - App.java => class that has main method.
-    - Operate.java       => has methods that is called by App.java by corresponding command line arguments
+    - App.java 
+        > class that has main method.
+    - Operate.java       
+        > has methods that is called by App.java by corresponding command line arguments
 3. Classes         -> we kept all classes here
-    - Anime.java         => has details,constructors,methods of Anime class
-    - Episode.java       => has details,constructors,methods of Episode class
-    - Movie.java         => has details,constructors,methods of Movie class
+    - Anime.java         
+        > has details,constructors,methods of Anime class
+    - Episode.java       
+        > has details,constructors,methods of Episode class
+    - Movie.java         
+        > has details,constructors,methods of Movie class
 4. Interfaces -> we kept all interfaces here 
-    - CONNECTable.java   => interface for getconnection
-    - CRUDable.java      => interface for CRUD operations
-    - FITERable.java     => interface for filter operations
+    - CONNECTable.java   
+        > interface for getconnection
+    - CRUDable.java      
+        > interface for CRUD operations
+    - FITERable.java     
+        > interface for filter operations
 5. Implementation -> implementations of interfaces are in this directory 
-    - AnimeCRUD.java     => implements CRUDable interface and has CRUD operations for Anime class   
-    - ConnectionFactory.java => implements CONNECTable interface to get connection with sql server.
+    - AnimeCRUD.java     
+        > implements CRUDable interface and has CRUD operations for Anime class   
+    - ConnectionFactory.java 
+        > implements CONNECTable interface to get connection with sql server.
     - EpisodeCRUD.java   => implements CRUDable interface and has CRUD operations for Episode class
     - MovieCRUD.java     => implements CRUDable interface and has CRUD operations for Movie class.
     - TestFILTER.java    => implements FITERable interface and has soring and filter operations for all there classes
