@@ -2,7 +2,7 @@ package SQLDetails;
 
 public class Details {
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "Chari@2003";
+    private static final String PASSWORD = "*******";
     private static final String DATABASE = "mini";
     private static final String URL = "jdbc:mysql://localhost:3306/" + DATABASE;
     private static String Driver = "com.mysql.cj.jdbc.Driver";
