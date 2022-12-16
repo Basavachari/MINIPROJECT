@@ -31,13 +31,13 @@ In src file we have sub pakages like---
     - CONNECTable.java   => interface for getconnection
     - CRUDable.java      => interface for CRUD operations
     - FITERable.java     => interface for filter operations
-5. Implementation -> implementations of interfaces are here
-    - AnimeCRUD.java     => implemments CRUDable interface and has CRUD operations for Anime class   
-    - ConnectionFactory.java => implements to get connection with sql
-    - EpisodeCRUD.java => implemments CRUDable interface and has CRUD operations for Episode class
-    - MovieCRUD.java => implemments CRUDable interface and has CRUD operations for Movie class
-    - TestFILTER.java => implemments Filteable interface and has soring and filter operations for all there classes
+5. Implementation -> implementations of interfaces are in this directory 
+    - AnimeCRUD.java     => implements CRUDable interface and has CRUD operations for Anime class   
+    - ConnectionFactory.java => implements CONNECTable interface to get connection with sql server.
+    - EpisodeCRUD.java   => implements CRUDable interface and has CRUD operations for Episode class
+    - MovieCRUD.java     => implements CRUDable interface and has CRUD operations for Movie class.
+    - TestFILTER.java    => implements FITERable interface and has soring and filter operations for all there classes
 6. CSV_files -> all csv files here
-    - Anime.csv => csv file for Anime details
-    - Episode.csv => csv file for Episode details
-    - Movie.csv => csv file for Movie details
+    - Anime.csv          => csv file for Anime details
+    - Episode.csv        => csv file for Episode details
+    - Movie.csv          => csv file for Movie details
